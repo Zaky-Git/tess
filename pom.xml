@@ -5,10 +5,19 @@
     <artifactId>TP_MOD_03_1302213067_ZAKY</artifactId>
     <version>1.0.1</version>
     <packaging>jar</packaging>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>16</maven.compiler.source>
-        <maven.compiler.target>16</maven.compiler.target>
-        <exec.mainClass>com.mycompany.tp_mod_03_1302213067_zaky.TP_MOD_03_1302213067_ZAKY</exec.mainClass>
-    </properties>
+
+    <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/Zaky-Git/tess</url>
+    </repository>
+  </distributionManagement>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     <maven.compiler.source>1.8</maven.compiler.source>
+     <maven.compiler.target>1.8</maven.compiler.target>
+    <exec.mainClass>com.mycompany.tp_mod_03_1302213067_zaky.TP_MOD_03_1302213067_ZAKY</exec.mainClass>
+ </properties>
 </project>
